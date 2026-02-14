@@ -33,7 +33,7 @@ export default function Index() {
               Fresh Produce Delivered{" "}
               <span className="text-primary">24/7</span> Unbeatable Prices
             </h1>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-lg mb-8 leading-relaxed" style={{ color: "rgba(53, 18, 18, 1)" }}>
               Get farm-fresh vegetables and fruits delivered to your doorstep in 3 days.
               Quality guaranteed, prices you'll love.
             </p>
