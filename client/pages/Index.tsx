@@ -11,7 +11,7 @@ export default function Index() {
     <section
       className="relative pt-20 pb-12 md:pt-32 md:pb-24 overflow-hidden"
       style={{
-        backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2Ffa38015c3c21441380745dda6d835078%2Fed45ac7c18894f6a8fa830ea02640333)",
+        backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2Ffa38015c3c21441380745dda6d835078%2F8bedeee2f40544fcb6afa35730c863d9)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
