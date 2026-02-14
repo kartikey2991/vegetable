@@ -21,7 +21,7 @@ export default function Index() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          background: "linear-gradient(to right, rgba(255,255,255,0.4), rgba(255,255,255,0.1), transparent)",
+          background: "linear-gradient(to right, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 30%, transparent 100%)",
         }}
       ></div>
 
