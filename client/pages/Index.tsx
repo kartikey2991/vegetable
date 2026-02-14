@@ -13,7 +13,7 @@ export default function Index() {
       style={{
         backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2Ffa38015c3c21441380745dda6d835078%2F8bedeee2f40544fcb6afa35730c863d9)",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
+        backgroundPosition: "left center",
         backgroundSize: "cover",
       }}
     >
