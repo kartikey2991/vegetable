@@ -8,9 +8,20 @@ export default function Index() {
 
   // Hero Section
   const HeroSection = () => (
-    <section className="relative pt-20 pb-12 md:pt-32 md:pb-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+    <section
+      className="relative pt-20 pb-12 md:pt-32 md:pb-24 overflow-hidden"
+      style={{
+        backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2Ffa38015c3c21441380745dda6d835078%2F55e43b25b27049838fe337e795256ffe)",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
+      {/* Gradient Fade Overlay on Left */}
+      <div className="absolute inset-0 bg-gradient-to-r from-white via-white to-transparent pointer-events-none"></div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl">
           {/* Left Content */}
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -18,7 +29,7 @@ export default function Index() {
               <span className="text-primary">24/7</span> Unbeatable Prices
             </h1>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Get farm-fresh vegetables and fruits delivered to your doorstep in 3 days. 
+              Get farm-fresh vegetables and fruits delivered to your doorstep in 3 days.
               Quality guaranteed, prices you'll love.
             </p>
             <button className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors text-lg mb-8">
@@ -39,17 +50,6 @@ export default function Index() {
               </div>
             </div>
           </div>
-
-          {/* Right Image Placeholder */}
-          <div
-            className="relative h-96 md:h-[500px] rounded-3xl overflow-hidden"
-            style={{
-              backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2Ffa38015c3c21441380745dda6d835078%2F55e43b25b27049838fe337e795256ffe)",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-            }}
-          />
         </div>
       </div>
     </section>
