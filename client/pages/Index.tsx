@@ -18,7 +18,12 @@ export default function Index() {
       }}
     >
       {/* Gradient Fade Overlay on Left */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white via-white to-transparent pointer-events-none"></div>
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background: "linear-gradient(to right, rgba(255,255,255,0.4), rgba(255,255,255,0.1), transparent)",
+        }}
+      ></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
