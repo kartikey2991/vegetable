@@ -41,14 +41,15 @@ export default function Index() {
           </div>
 
           {/* Right Image Placeholder */}
-          <div className="relative h-96 md:h-[500px] bg-gradient-to-br from-secondary to-secondary/40 rounded-3xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <Leaf className="w-24 h-24 text-primary/40 mx-auto mb-4" />
-                <p className="text-muted-foreground">Fresh Produce Showcase</p>
-              </div>
-            </div>
-          </div>
+          <div
+            className="relative h-96 md:h-[500px] rounded-3xl overflow-hidden"
+            style={{
+              backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2Ffa38015c3c21441380745dda6d835078%2F55e43b25b27049838fe337e795256ffe)",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+          />
         </div>
       </div>
     </section>
